@@ -49,3 +49,68 @@
 // Utilities
 @import "utilities/api";
 // scss-docs-end import-stack
+
+@each $color,
+$value in $grays {
+  $color-rgb: to-rgb($value);
+  .text-gray-#{$color} {
+    color: ($value) if($enable-important-utilities,  !important, null);
+  }
+}
+
+@each $color,
+$value in $colors {
+  $color-rgb: to-rgb($value);
+  .text-#{$color} {
+    color: ($value) if($enable-important-utilities,  !important, null);
+  }
+}
+
+.brand-text-icon {
+  font-size: 26px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: $primary;
+  text-decoration: none !important;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+header {
+  border-bottom: 1px solid $gray-200;
+  width: 100%;
+  position: relative;
+
+  .navbar {
+    height: 80px;
+
+    .navbar-collapse {
+      flex-grow: 0;
+    
+      ul.navbar-nav {
+        li.nav-item {
+          &.active {
+            a.nav-link {
+              color: $primary;
+            }
+          }
+          a {
+            &.nav-link {
+              letter-spacing: 1px;
+              font-weight: 600;
+              color: $gray-900;
+              padding-left: 1rem;
+              padding-right: 1rem;
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
