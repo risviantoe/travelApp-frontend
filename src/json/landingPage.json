@@ -3,5 +3,57 @@
     "travelers": 80409,
     "treasure": 882,
     "cities": 1492
-  }
+  },
+  "mostPicked": [
+    {
+      "_id": "asd129weuq0s1",
+      "name": "Blue Origin Fams",
+      "type": "Apartment",
+      "imageUrl": "/images/image-mostpicked-1.png",
+      "country": "Indonesia",
+      "city": "Jakarta",
+      "price": "50",
+      "unit": "night"
+    },
+    {
+      "_id": "asd129weuq0s1",
+      "name": "Ocean Land",
+      "type": "Hotel",
+      "imageUrl": "/images/image-mostpicked-2.png",
+      "country": "Indonesia",
+      "city": "Bandung",
+      "price": "22",
+      "unit": "night"
+    },
+    {
+      "_id": "asd129weuq0s1",
+      "name": "Stark House",
+      "type": "Guest House",
+      "imageUrl": "/images/image-mostpicked-3.png",
+      "country": "Indonesia",
+      "city": "Malang",
+      "price": "856",
+      "unit": "night"
+    },
+    {
+      "_id": "asd129weuq0s1",
+      "name": "Vinna Vill",
+      "type": "Villa",
+      "imageUrl": "/images/image-mostpicked-4.png",
+      "country": "Indonesia",
+      "city": "Malang",
+      "price": "62",
+      "unit": "night"
+    },
+    {
+      "_id": "asd129weuq0s1",
+      "name": "Bobox",
+      "type": "Guest House",
+      "imageUrl": "/images/image-mostpicked-5.png",
+      "country": "Indonesia",
+      "city": "Medan",
+      "price": "72",
+      "unit": "night"
+    }
+  ]
 }
