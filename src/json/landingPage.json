@@ -55,5 +55,121 @@
       "price": "72",
       "unit": "night"
     }
+  ],
+  "categories": [
+    {
+      "_id": "asd129weuq0s1",
+      "name": "Houses with beauty backyard",
+      "items": [
+        {
+          "_id": "asd129weuq0s1",
+          "name": "Toby Town",
+          "imageUrl": "/images/image-category-1.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": true
+        },
+        {
+          "_id": "asd129weuq0s1",
+          "name": "Toby Town",
+          "imageUrl": "/images/image-category-2.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        },
+        {
+          "_id": "asd129weuq0s1",
+          "name": "Toby Town",
+          "imageUrl": "/images/image-category-3.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        },
+        {
+          "_id": "asd129weuq0s1",
+          "name": "Toby Town",
+          "imageUrl": "/images/image-category-4.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        }
+      ]
+    },
+    {
+      "_id": "asd129weuq0s1",
+      "name": "Hotels with large living room",
+      "items": [
+        {
+          "_id": "asd129weuq0s1",
+          "name": "Toby Town",
+          "imageUrl": "/images/image-category-5.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        },
+        {
+          "_id": "asd129weuq0s1",
+          "name": "Toby Town",
+          "imageUrl": "/images/image-category-6.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        },
+        {
+          "_id": "asd129weuq0s1",
+          "name": "Toby Town",
+          "imageUrl": "/images/image-category-7.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": true
+        },
+        {
+          "_id": "asd129weuq0s1",
+          "name": "Toby Town",
+          "imageUrl": "/images/image-category-8.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        }
+      ]
+    },
+    {
+      "_id": "asd129weuq0s1",
+      "name": "Apartments with kitchen set",
+      "items": [
+        {
+          "_id": "asd129weuq0s1",
+          "name": "Toby Town",
+          "imageUrl": "/images/image-category-9.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        },
+        {
+          "_id": "asd129weuq0s1",
+          "name": "Toby Town",
+          "imageUrl": "/images/image-category-10.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        },
+        {
+          "_id": "asd129weuq0s1",
+          "name": "Toby Town",
+          "imageUrl": "/images/image-category-11.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        },
+        {
+          "_id": "asd129weuq0s1",
+          "name": "Toby Town",
+          "imageUrl": "/images/image-category-12.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": true
+        }
+      ]
+    }
   ]
 }

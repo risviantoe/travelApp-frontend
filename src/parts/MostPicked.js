@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function MostPicked(props) {
 	return (
-		<section className="container" ref={props.refMostPicked} style={{ height: 2000 }}>
+		<section className="container" ref={props.refMostPicked}>
 			<h4 className="mb-3">Most Picked</h4>
 			<div className="row">
 				<div className="container-grid">
@@ -17,7 +17,7 @@ export default function MostPicked(props) {
 							>
 								<div className="card card-feature">
 									<div className="tag">
-										${item.price}{" "}
+										${item.price}{' '}
 										<span className="fw-light">
 											per {item.unit}
 										</span>
@@ -32,7 +32,7 @@ export default function MostPicked(props) {
 									<div className="meta-wrapper">
 										<Button
 											type="link"
-											className="streched-link d-block text-white"
+											className="stretched-link d-block text-white"
 											href={`properties/${item._id}`}
 										>
 											<h5>{item.name}</h5>

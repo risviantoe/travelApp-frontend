@@ -133,6 +133,10 @@ header {
 .card {
 	height: 100%;
 
+	a {
+		text-decoration: none;
+	}
+
 	.tag {
 		z-index: 3;
 		font-size: 0.875rem;
@@ -175,7 +179,6 @@ header {
 		cursor: pointer;
 		height: 100%;
 		border-radius: 15px;
-    border: none;
 		&:after {
 			position: absolute;
 			content: '';
@@ -216,16 +219,16 @@ header {
 			flex-direction: column;
 		}
 
-    &:hover {
-      .meta-wrapper {
-        transform: translateY(-10px);
-      }
-      &:after {
-        transform: scale(1);
-      }
-      .img-wrapper {
-        transform: scale(1);
-      }
-    }
+		&:hover {
+			.meta-wrapper {
+				transform: translateY(-10px);
+			}
+			&:after {
+				transform: scale(1);
+			}
+			.img-wrapper {
+				transform: scale(1);
+			}
+		}
 	}
 }
