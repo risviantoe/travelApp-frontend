@@ -6,6 +6,8 @@ import MostPicked from 'parts/MostPicked';
 import Categories from 'parts/Categories';
 
 import landingPage from 'json/landingPage.json';
+import Testimonial from 'parts/Testimonial';
+import Footer from 'parts/Footer';
 
 export default function LandingPage(props) {
 	const refMostPicked = useRef();
@@ -18,6 +20,8 @@ export default function LandingPage(props) {
 				data={landingPage.mostPicked}
 			/>
 			<Categories data={landingPage.categories} />
+			<Testimonial data={landingPage.testimonial} />
+			<Footer />
 		</>
 	);
 }
