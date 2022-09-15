@@ -5,7 +5,7 @@ import Star from './index'
 test("should have props [value, height, width, spacing]", () => {
   const height = 40, width = 40, spacing = 4
   const { container } = render(
-		<Star width={width} height={height} spacing={spacing} value={3.6} />
+		<Star data-testid="star" width={width} height={height} spacing={spacing} value={3.6} />
   );
   const starYellow = "div.stars div.star:not(.placeholder)"
 

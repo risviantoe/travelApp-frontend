@@ -4,26 +4,31 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Button from '.';
 
 test('Should not allow click button if isDisabled is present', () => {
-	const { container } = render(<Button isDisabled></Button>);
-	expect(container.querySelector('span')).toHaveClass('disabled');
+	render(<Button isDisabled></Button>);
+	expect(screen.getByTestId('button-span')).toHaveClass('disabled');
 });
 
 test('Should render loading/spinner', () => {
-	const { container } = render(<Button isLoading></Button>);
+	render(<Button isLoading></Button>);
 	expect(screen.getByText(/loading/i)).toBeInTheDocument();
-	expect(container.querySelector('span')).toBeInTheDocument();
+	expect(screen.getByTestId('button-span')).toBeInTheDocument();
 });
 
 test('Should render <a> tag', () => {
-	const { container } = render(<Button type="link" isExternal></Button>);
-	expect(container.querySelector('a')).toBeInTheDocument();
+	render(<Button type="link" isExternal></Button>);
+	expect(screen.getByTestId('button-link-external')).toBeInTheDocument();
 });
 
 test('Should render <Link> component', () => {
-	const { container } = render(
+	render(
 		<Router>
 			<Button href="" type="link"></Button>
 		</Router>
 	);
-	expect(container.querySelector('a')).toBeInTheDocument();
+	expect(screen.getByTestId('button-link-internal')).toBeInTheDocument();
 });
+
+test('Should render default button', () => {
+	render(<Button></Button>)
+	expect(screen.getByTestId('button-default')).toBeInTheDocument()
+})

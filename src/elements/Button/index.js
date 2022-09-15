@@ -18,7 +18,7 @@ export default function Button(props) {
 	if (props.isDisabled || props.isLoading) {
 		if (props.isDisabled) className.push('disabled');
 		return (
-			<span className={className.join(' ')} style={props.style}>
+			<span data-testid="button-span" className={className.join(' ')} style={props.style}>
 				{props.isLoading ? (
 					<>
 						<span className="spinner-boarder spinner-border-sm mx-5"></span>
@@ -36,6 +36,7 @@ export default function Button(props) {
 			return (
 				// eslint-disable-next-line react/jsx-no-target-blank
 				<a
+					data-testid="button-link-external"
 					href={props.href}
 					className={className.join(' ')}
 					style={props.style}
@@ -52,6 +53,7 @@ export default function Button(props) {
 		} else {
 			return (
 				<Link
+					data-testid="button-link-internal"
 					to={props.href}
 					className={className.join(' ')}
 					style={props.style}
@@ -65,6 +67,7 @@ export default function Button(props) {
 
 	return (
 		<button
+			data-testid="button-default"
 			className={className.join(' ')}
 			style={props.style}
 			onClick={onClick}
