@@ -1,16 +1,12 @@
-import React, { useState } from 'react'
-import { InputDate } from '../elements/Form'
+import React from 'react'
+import Breadcrumb from 'elements/Breadcrumb';
 
 export default function Example() {
-  const [value, setValue] = useState({
-		startDate: new Date(),
-		endDate: new Date(),
-		key: 'selection',
-  });
-
-  const handleChange = e => {
-    setValue(e.target.value)
-  }
+ const breadcrumbList = [
+		{ pageTitle: 'Home', pageHref: '' },
+		{ pageTitle: 'House Details', pageHref: '' },
+		{ pageTitle: 'Room', pageHref: '' },
+ ];
 
   return (
 		<div className="container">
@@ -19,12 +15,7 @@ export default function Example() {
 				style={{ height: '100vh' }}
 			>
 				<div className="col-auto">
-					<InputDate
-						max={30}
-						onChange={handleChange}
-						name="value"
-						value={value}
-					/>
+					<Breadcrumb data={breadcrumbList} />
 				</div>
 			</div>
 		</div>
