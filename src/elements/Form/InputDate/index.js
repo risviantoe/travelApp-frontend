@@ -55,6 +55,7 @@ export default function InputDate(props) {
 					<span className="input-group-text">
 						<img src={iconCalendar} alt="icon calendar" />
 					</span>
+				</div>
 					<input
 						data-testid="input-date"
 						readOnly
@@ -82,7 +83,6 @@ export default function InputDate(props) {
 					)}
 				</div>
 			</div>
-		</div>
 	);
 }
 

@@ -21,6 +21,7 @@
   // scss-docs-end btn-css-vars
 
   display: inline-flex;
+  justify-content: center;
   align-items: center;
   padding: var(--#{$prefix}btn-padding-y) var(--#{$prefix}btn-padding-x);
   font-family: var(--#{$prefix}btn-font-family);

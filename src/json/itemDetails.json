@@ -1,0 +1,151 @@
+{
+  "_id": "asd129weuq0s1",
+  "name": "Village Angga",
+  "type": "Hotel",
+  "imageUrls": [
+    {
+      "_id": "asd129weuq0s1",
+      "url": "/images/image-featured-1.png"
+    },
+    {
+      "_id": "asd129weuq0s2",
+      "url": "/images/image-featured-2.png"
+    },
+    {
+      "_id": "asd129weuq0s3",
+      "url": "/images/image-featured-3.png"
+    }
+  ],
+  "country": "Indonesia",
+  "city": "Bogor",
+  "price": "52",
+  "unit": "night",
+  "isPopular": true,
+  "hasBakyard": true,
+  "description": "<p>Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.</p><p>Such trends saw the demise of the soul-infused techno that typified the original Detroit sound. Robert Hood has noted that he and Daniel Bell both realized something was missing from techno in the post-rave era.</p><p>Design is a plan or specification for the construction of an object or system or for the implementation of an activity or process, or the result of that plan or specification in the form of a prototype, product or process. The national agency for design: enabling Singapore to use design for economic growth and to make lives better.</p>",
+  "features": [
+    {
+      "_id": "asd129weuq0s1",
+      "qty": "5",
+      "name": "bedroom",
+      "imageUrl": "/images/icons/ic_bedroom.svg"
+    },
+    {
+      "_id": "asd129weuq0s1",
+      "qty": "1",
+      "name": "living room",
+      "imageUrl": "/images/icons/ic_livingroom.svg"
+    },
+    {
+      "_id": "asd129weuq0s1",
+      "qty": "3",
+      "name": "bathroom",
+      "imageUrl": "/images/icons/ic_bathup.svg"
+    },
+    {
+      "_id": "asd129weuq0s1",
+      "qty": "1",
+      "name": "dining room",
+      "imageUrl": "/images/icons/ic_diningroom.svg"
+    },
+    {
+      "_id": "asd129weuq0s1",
+      "qty": "10",
+      "name": "mbp/s",
+      "imageUrl": "/images/icons/ic_wifi.svg"
+    },
+    {
+      "_id": "asd129weuq0s1",
+      "qty": "7",
+      "name": "unit ready",
+      "imageUrl": "/images/icons/ic_ac.svg"
+    },
+    {
+      "_id": "asd129weuq0s1",
+      "qty": "2",
+      "name": "refigrator",
+      "imageUrl": "/images/icons/ic_kulkas.svg"
+    },
+    {
+      "_id": "asd129weuq0s1",
+      "qty": "4",
+      "name": "television",
+      "imageUrl": "/images/icons/ic_tv.svg"
+    }
+  ],
+  "treasure": [
+    {
+      "_id": "asd129weuq0s1",
+      "name": "Green Lake",
+      "type": "Nature",
+      "imageUrl": "/images/image-treasure1.png"
+    },
+    {
+      "_id": "asd129weuq0s1",
+      "name": "Dog Clubs",
+      "type": "Pool",
+      "imageUrl": "/images/image-treasure2.png"
+    },
+    {
+      "_id": "asd129weuq0s1",
+      "name": "Labour and Wait",
+      "type": "Shopping",
+      "imageUrl": "/images/image-treasure3.png"
+    },
+    {
+      "_id": "asd129weuq0s1",
+      "name": "Snorkeling",
+      "type": "Nature",
+      "imageUrl": "/images/image-treasure4.png"
+    }
+  ],
+  "categories": [
+    {
+      "_id": "asd129weuq0s1",
+      "name": "Treasure to Choose",
+      "items": [
+        {
+          "_id": "asd129weuq0s1",
+          "name": "Green Lake",
+          "imageUrl": "/images/image-treasure-1.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": true
+        },
+        {
+          "_id": "asd129weuq0s1",
+          "name": "Dog Clubs",
+          "imageUrl": "/images/image-treasure-2.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        },
+        {
+          "_id": "asd129weuq0s1",
+          "name": "Labour and Wait",
+          "imageUrl": "/images/image-treasure-3.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        },
+        {
+          "_id": "asd129weuq0s1",
+          "name": "Snorkeling",
+          "imageUrl": "/images/image-treasure-4.png",
+          "country": "South Korea",
+          "city": "Seoul Flore",
+          "isPopular": false
+        }
+      ]
+    }
+  ],
+  "testimonial": {
+    "_id": "asd129weuq0s1",
+    "name": "Happy Family",
+    "imageUrl": "/images/image-testimonial-2.png",
+    "rate": 5,
+    "content": "As a wife I can pick a great trip with my own lovely family ... thank you!",
+    "familyName": "Anggi",
+    "familyOccupation": "Product Designer"
+  }
+}
