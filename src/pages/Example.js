@@ -1,12 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Breadcrumb from 'elements/Breadcrumb';
+import InputText from 'elements/Form/InputText';
+import InputFile from 'elements/Form/InputFile';
 
 export default function Example() {
- const breadcrumbList = [
-		{ pageTitle: 'Home', pageHref: '' },
-		{ pageTitle: 'House Details', pageHref: '' },
-		{ pageTitle: 'Room', pageHref: '' },
- ];
+	const [value, setValue] = useState('')
+
+	const handleChange = (e) => {
+    setValue(e.target.value)
+	}
+	
 
   return (
 		<div className="container">
@@ -15,7 +18,19 @@ export default function Example() {
 				style={{ height: '100vh' }}
 			>
 				<div className="col-auto">
-					<Breadcrumb data={breadcrumbList} />
+					{/* <InputText
+						type='email'
+						name='testing'
+						value={value}
+						onChange={(e) => handleChange(e)}
+					/> */}
+				</div>
+				<div className="col-auto">
+					<InputFile
+						name='testing'
+						value={value}
+						onChange={(e) => handleChange(e)}
+					/>
 				</div>
 			</div>
 		</div>
