@@ -2,15 +2,16 @@ import React, { useState } from 'react'
 import propTypes from 'prop-types'
 
 export default function Stepper(props) {
-  const { steps, initialStep } = this.props.first
+  const { steps, initialStep } = props
   const stepKeys = Object.keys(steps)
-
   const [currentStep, setCurrentStep] = useState(
-    stepKeys.indexOf(initialStep > -1 ? initialStep : stepKeys[0])
+    stepKeys[stepKeys.indexOf(initialStep > -1 ? initialStep : stepKeys[0])]
   )
 
   const totalStep = Object.keys(steps).length
   const indexStep = stepKeys.indexOf(currentStep)
+
+  console.log('indexStep ', indexStep);
 
   const prevStep = () => {
     if (+indexStep > 0) setCurrentStep(stepKeys[indexStep - 1])
@@ -28,6 +29,6 @@ export default function Stepper(props) {
 }
 
 Stepper.propTypes = {
-  data: propTypes.object.isRequired,
+  // data: propTypes.object.isRequired,
   initialStep: propTypes.string
 }

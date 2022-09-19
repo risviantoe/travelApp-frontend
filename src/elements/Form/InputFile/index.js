@@ -25,6 +25,7 @@ export default function InputFile(props) {
 					</div>
 				)}
 				<input
+					data-testid="input-file"
 					name={name}
 					accept={accept}
 					ref={refInputFile}
@@ -33,11 +34,11 @@ export default function InputFile(props) {
 					value={value}
 					onChange={props.onChange}
 				/>
-        <input
+				<input
 					onClick={() => refInputFile.current.click()}
-          defaultValue={value}
-          placeholder={placeholder}
-          className={['form-control', inputClassName].join(' ')}
+					defaultValue={value}
+					placeholder={placeholder}
+					className={['form-control', inputClassName].join(' ')}
 				/>
 				{append && (
 					<div className="input-group-append bg-gray-500">
@@ -53,4 +54,4 @@ InputFile.defaultProps = {
 	placeholder: 'Browse a file...',
 };
 
-InputFile.propTypes = inputPropTypes['accept'] = propTypes.string.isRequired;
+InputFile.propTypes = inputPropTypes['accept'] = propTypes.string;

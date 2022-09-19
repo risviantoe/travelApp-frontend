@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Bank Central Asia",
+    "accountNumber": "2208 1996",
+    "accountHolder": "BuildWith Angga",
+    "imageUrl": "/images/logo/logo-bank-bca.png"
+  },
+  {
+    "name": "Mandiri",
+    "accountNumber": "2208 1996",
+    "accountHolder": "BuildWith Angga",
+    "imageUrl": "/images/logo/logo-bank-mandiri.png"
+  }
+]

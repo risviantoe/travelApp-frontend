@@ -2,8 +2,10 @@ import React from 'react'
 import propTypes from 'prop-types'
 import { Fade } from 'react-reveal'
 
+import './index.scss'
 export default function Numbering({ style, className, data, current }) {
   const keysOfData = Object.keys(data)
+  console.log(keysOfData);
   return (
     <Fade>
       <ol className={['stepper', className].join(' ')} style={style}>
@@ -28,5 +30,5 @@ export default function Numbering({ style, className, data, current }) {
 Numbering.propTypes = {
   className: propTypes.string,
   data: propTypes.object,
-  current: propTypes.string
+  current: propTypes.number
 }
